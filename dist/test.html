@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Title</title>
+</head>
+<body>
+<div id="demo"></div>
+<style id="demo2"></style>
+<div id="buttons">
+  <button id="btnPause">暂停</button>
+  <button id="btnPlay">播放</button>
+  <button id="btnSlow">慢速</button>
+  <button id="btnNormal">正常</button>
+  <button id="btnFast">快速</button>
+</div>
+<style>* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::before,*::after{
+  box-sizing: border-box;
+}
+#demo{
+  background: #ddd;
+  position: fixed;
+  height: 50vh;
+  width: 100%;
+  overflow: scroll;
+}
+#demo::-webkit-scrollbar{
+  display: none;
+}
+#demo2{
+  display: none;
+}
+#buttons{
+  position: fixed;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+#buttons > button{
+  margin-bottom: 10px;
+}
+.box{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 50vh;
+  width: 100%;
+}</style>
+<div class="box">
+  <div class="head">
+    <div class="white"></div>
+    <div class="eye">
+      <div class="black"></div>
+    </div>
+    <div class="eye">
+      <div class="black"></div>
+    </div>
+    <div class="nose"></div>
+    <div class="mouth"></div>
+    <div class="beard left"></div>
+    <div class="beard right"></div>
+  </div>
+</div>
+<!--<script src="test.js"></script>-->
+<script src="/test1.9b0b24fb.js"></script>
+</body>
+</html>
